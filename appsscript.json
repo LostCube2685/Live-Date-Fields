@@ -1,0 +1,24 @@
+{
+  "timeZone": "America/New_York",
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/documents.currentonly",
+    "https://www.googleapis.com/auth/script.container.ui",
+    "https://www.googleapis.com/auth/script.storage"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Live Date Fields",
+      "logoUrl": "https://drive.google.com/uc?export=view&id=1ff6z-fDWwK9tRp2FJhPPbOiLOOH5GZuN",
+      "homepageTrigger": {
+        "runFunction": "onOpen"
+      }
+    },
+    "docs": {
+      "homepageTrigger": {
+        "runFunction": "onOpen"
+      }
+    }
+  },
+  "runtimeVersion": "V8"
+}
